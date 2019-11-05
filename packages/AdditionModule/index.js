@@ -9,7 +9,7 @@ module.exports.cubeadd = function(x,y){
     return x*x*x + y*y*y;
 }
 module.exports.add5 = function(x,y){
-    return x*x*x*x*x + y*y*y*y*y;
+    return x + y;
 }
 
 module.exports.add4 = function(x,y){

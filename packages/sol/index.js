@@ -1,12 +1,10 @@
 var add = require('vishesh_addmod');
 var subtract = require('vishesh_submod');
  
-module.exports.addsub = function(x,y){
-    var sum = add.add(2,3);
-    var diff = subtract.subtract(3,2);
-
-    return "result of addition is " + sum + "result of sub is " + diff;
+module.exports.add = function(x,y){
+   return(add.add5(2,3));
 }
 
- 
-console.log("Sum: " + sum + " Diff: " + diff);
+module.exports.sub = function(x,y){
+    return(subtract.subtract(3,2));
+}
