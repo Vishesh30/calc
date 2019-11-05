@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "addmod": "^1.0.0",
-    "submod": "^1.0.0"
+    "vishesh_addmod": "^1.0.0",
+    "vishesh_submod": "^1.0.0"
   },
   "keywords": [],
   "author": "",
